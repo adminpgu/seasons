@@ -1,0 +1,10 @@
+#gal img{
+width: 24%;
+height: 500px;
+object-fit: cover;
+}
+#gal {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px ;
+}

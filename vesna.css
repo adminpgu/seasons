@@ -1,0 +1,218 @@
+header{
+    height: 100vh;
+    background-image: url(https://cdn.culture.ru/images/a025bf2d-4b60-5b48-b6af-ecc391ad06da);
+    background-size: cover;
+
+
+}
+header div{
+    display: flex;
+    height: 100vh;
+}
+header h1{
+    margin: auto;
+}
+@font-face {
+    font-family: Playfair;
+    src: url(../Весна/fonts/Playfair-VariableFont_opsz\,wdth\,wght.ttf)
+
+}
+header h1 {
+    font-family: Playfair;
+    font-size: 7vw;
+    color: rgb(1, 120, 1);
+    text-transform: uppercase;
+
+}
+
+#poem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    padding: 50px;
+    background: linear-gradient( to right, rgb(9, 111, 80) 70%, rgb(87, 163, 98) 30%);
+}
+
+#poem p{
+    font-family: Playfair;
+    font-size: 4vw;
+    color:aquamarine;
+    line-height: 1;
+}
+#poem img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: all 1s;
+}
+
+#poem img:hover {
+    transform: scale(1,2);
+}
+
+#links {
+    padding: 50px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=28144f1edb0bf0b962961b18bcb8f985_l-5285824-images-thumbs&n=13);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#links a{
+    font-size: 3vw;
+    font-family: Playfair;
+    color:rgb(4, 86, 5);
+    width: 60%;
+    padding: 10px 0;
+    background-color: rgba(86, 192, 86, 0.583);
+    border: 3px groove rgba(75, 172, 75, 0.542);
+    text-decoration: none;
+    transition: all 1s;
+
+}
+#links a:hover {
+    border-radius:40px ;
+    background-color: rgba(54, 228, 60, 0.728);
+    color:rgba(16, 200, 56, 0.91);
+    transform: scale(1.2);
+
+}
+
+#priznaki {
+    padding: 50px;
+    background-color: rgb(42, 194, 29); 
+}
+
+#priznaki h2 {
+    text-align: center;
+    color: rgb(0, 90, 17); 
+}
+
+#priznaki ul {
+    width: fit-content;
+    margin: auto; 
+    list-style-type: none;
+    
+}
+
+
+
+#priznaki li:first-child {
+background-image: url(img/Colored_Flowers_icon-icons.com_55388.png);
+background-repeat: no-repeat;
+background-position: left center;
+padding-left: 40px;
+font-size: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+#priznaki li:nth-child(2) {
+    background-image: url(img/if-food-c205-2427851_85705.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+#priznaki li:nth-child(3) {
+    background-image: url(img/sun_icon_182830.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+#priznaki li:nth-child(4) {
+    background-image: url(img/angrybirds_6857.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+#gal img{
+    width: 24%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+    }
+    #gal {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px 0 ;
+    }
+    #gal{
+        padding: 100px;
+        background-color: rgb(42, 194, 29); 
+    }
+    table {
+        border: 25px inset rgb(43, 128, 0);
+        padding: 30px;
+        margin-left: 40%;
+        margin-top: 50px;
+        border-spacing: 15px;
+        background-color: rgba(0, 255, 153, 0.26);
+        
+    
+    }
+    td{
+        border: 10px solid rgb(0, 255, 128);
+        padding: 15px;
+        border-radius: 30%;
+        text-align: center;
+    }
+    caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+        color: rgba(6, 169, 0, 0.664);
+    }
+    td{
+        font-family: fantasy;
+        background-color: rgb(0, 255, 21);
+    }
+    #second-table {
+        border: 25px inset rgb(135, 233, 129);
+        padding: 30px;
+        margin-left: 40%;
+        margin-top: 50px;
+        border-spacing: 15px;
+        background-color: rgba(12, 129, 51, 0.26);
+    }
+    #Tabls {
+        background-image: url(https://ybis.ru/wp-content/uploads/2023/09/podsnezhniki-primorskie-3-3.webp) ;
+        background-size: cover;
+        padding: 50px;
+    }
+    #vidka{
+       background-color: rgb(67, 156, 65);
+        text-align: center;
+        padding: 50px;
+    }
+    #vidka video{
+        border: 10px groove rgb(11, 117, 15);
+    width: 80%;
+    height: 800px;
+    object-fit: cover;
+    
+    }
+    body {
+        margin :0;
+    }
